@@ -1,0 +1,8 @@
+1. IS-A refers to inheritence
+   HAS-A refers to composition or aggregation
+
+	Sometimes IS-A violates LSP.
+	So, use inheritance when one object behaves like another,
+	rather than just when the IS-A relationship applies.
+
+
