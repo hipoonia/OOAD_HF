@@ -33,6 +33,6 @@ public class DogDoorSimulator {
 		recognizer.recognize("Woof");
 		
 		System.out.println("\n Finally Pillu is back inside...");
-	//	remote.pressButton();
+
 	}
 }
