@@ -9,12 +9,12 @@ public class DogDoorSimulator {
 		remote.pressButton();
 		
 		System.out.println("\n Pillu has gnoe out...");
-		remote.pressButton();
+	//	remote.pressButton();
 		
 		System.out.println("\n Pillu's all done...");
-		remote.pressButton();
+	//	remote.pressButton();
 		
 		System.out.println("\n Pillu is back inside...");
-		remote.pressButton();
+	//	remote.pressButton();
 	}
 }
