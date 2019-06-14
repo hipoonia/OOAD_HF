@@ -27,7 +27,7 @@ public class DogDoor {
 				}
 			} , 5000);
 	}
-	
+// encapsulate what varies. dog door's closing behavior from rest of the code.
 	public void close() {
 	
 		System.out.println("This dog door closes.");

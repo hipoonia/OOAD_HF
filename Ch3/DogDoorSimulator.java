@@ -11,6 +11,12 @@ public class DogDoorSimulator {
 		System.out.println("Pillu barks to go out...");
 	//	remote.pressButton();
 		recognizer.recognize("Woof");
+	//	remote.pressButton();
+		recognizer.recognize("Woof");
+		recognizer.recognize("Woof");
+// ISSUES WITH MULTIPLE DOOR OPENS AT THE SAME TIME
+		
+		
 		
 		System.out.println("\n Pillu has gone out...");
 	//	remote.pressButton();
