@@ -1,5 +1,3 @@
-import java.util.Timer;
-import java.util.TimerTask;
 
 public class Remote {
 
@@ -20,16 +18,6 @@ public class Remote {
 		} else {
 		
 			door.open();
-			
-			final Timer timer = new Timer();
-			timer.schedule(new TimerTask() {
-			
-				public void run() {
-				
-					door.close();
-					timer.cancel();
-				}
-			} , 5000);
 		}
 	}
 }
