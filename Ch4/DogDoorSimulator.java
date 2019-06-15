@@ -27,7 +27,7 @@ public class DogDoorSimulator {
 		System.out.println("\n Bruce all done...");
 		System.out.println("\n but he's stuck outside!...");
 		
-		Bark smallDogbark = new Bark("yip");
+		Bark smallDogBarking = new Bark("yip");
 		System.out.println("A small dog is barking");
 		recognizer.recognize(smallDogBarking);
 		
